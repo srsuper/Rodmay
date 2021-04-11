@@ -35,29 +35,14 @@
               </div>
               <hr>
                 <div style="margin-left: 20px;">
-                  <form name="submit-to-google-sheet">
-     
-                    <div class="form-group row">
-                      <label class="col-sm-2 ">ชื่อผู้จอง</label>
-                      <div class="col-sm-7">
-                        <input type="text" name="Name" class="form-control" required placeholder="ชื่อผู้จอง" minlength="1">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-sm-2 ">จำนวนลูกค้า</label>
-                      <div class="col-sm-5">
-                        <input type="number" name="Value" class="form-control" required placeholder="จำนวนลูกค้า" minlength="1" >
-                      </div>
-                      </div>
-                    <div class="form-group row">
-                      <label class="col-sm-2 ">เบอร์โทร</label>
-                      <div class="col-sm-7">
-                        <input type="text" name="Tel" class="form-control" required placeholder="เบอร์โทร" minlength="10" >
-                      </div>
-                    </div>
-  
-  <button type="submit">Send</button>
-</form>
+                  <div class="form-container">
+    <form name="submit-to-google-sheet">
+      <input name="table" type="text" placeholder="โต๊ะ" required>
+      <input name="Name" type="text" placeholder="ชื่อ">
+      <input name="vvlue" type="text" placeholder="จำนวน">
+      <input name="tel" type="text" placeholder="เบอร์">
+      <button type="submit">Subscribe</button>
+    </form>
     <div class="loading js-loading is-hidden">
       <div class="loading-spinner">
         <svg><circle cx="25" cy="25" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/></svg>
