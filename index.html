@@ -20,8 +20,35 @@
         <div class="col-12 col-sm-11 col-md-7 devbanban" style="margin-top: 50px;">
           <br>
           <h4 align="center" style="color: red;">RODMAY BOOKING</h4>
-<form name="submit-to-google-sheet">
-  <input name="email" type="email" placeholder="Email" required>
+         <form name="submit-to-google-sheet">
+           <br>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <div class="alert alert-warning" role="alert">
+                <center><font color="red"> <b> บันทึกการจอง </b></font> </center>
+              </div>
+              <hr>
+                <div style="margin-left: 20px;">
+     
+                    <div class="form-group row">
+                      <label class="col-sm-2 ">ชื่อผู้จอง</label>
+                      <div class="col-sm-7">
+                        <input type="text" name="Name" class="form-control" required placeholder="ชื่อผู้จอง" minlength="1">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-sm-2 ">จำนวนลูกค้า</label>
+                      <div class="col-sm-5">
+                        <input type="number" name="Value" class="form-control" required placeholder="จำนวนลูกค้า" minlength="1" >
+                      </div>
+                      </div>
+                    <div class="form-group row">
+                      <label class="col-sm-2 ">เบอร์โทร</label>
+                      <div class="col-sm-7">
+                        <input type="text" name="Tel" class="form-control" required placeholder="เบอร์โทร" minlength="10" >
+                      </div>
+                    </div>
+  
   <button type="submit">Send</button>
 </form>
 
