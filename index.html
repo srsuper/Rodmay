@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-
+<html>
 <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
   <title>กำลังเข้าสู่ Form</title>
   <style>
     .centerScreen {
@@ -9,6 +11,56 @@
       margin-bottom: 20;
       margin-left: auto;
     }
+
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+body {
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  margin: 8px auto
+}
+
+p {
+  border-bottom: 1px dashed #ddd
+}
+
+#pictureUrl {
+  display: block;
+  margin: 0 auto;
+  width: 12%;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+}
+
+#accessToken, #utouId {
+  display: block;
+  overflow: auto
+}
   </style>
 </head>
 
